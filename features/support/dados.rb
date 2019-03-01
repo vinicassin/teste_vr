@@ -11,7 +11,7 @@ CONFIG_AMBIENTES = {
 
 
 DADOS_END = {
-  cep_valido: "03211000",
+  cep_valido: "01001000",
   cep_invalido: "00000001"
 
 }
