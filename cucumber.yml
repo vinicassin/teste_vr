@@ -1,0 +1,3 @@
+default: --no-source --color --format pretty --format json --out=data/reports/report.json
+
+# default: --no-source --color --format pretty

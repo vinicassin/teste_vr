@@ -1,0 +1,80 @@
+[
+  {
+    "uri": "features/exemplos.feature",
+    "id": "desejo-realizar-a-pesquisa-de-um-cep-valido-e-um-invalido-para-o-teste-da-vr.",
+    "keyword": "Funcionalidade",
+    "name": "Desejo realizar a pesquisa de um cep valido e um invalido para o teste da VR.",
+    "description": "",
+    "line": 3,
+    "elements": [
+      {
+        "id": "desejo-realizar-a-pesquisa-de-um-cep-valido-e-um-invalido-para-o-teste-da-vr.;realizar-a-pesquisa-de-um-cep-valido-e-apresentar-o-codigo-do-ibge-no-retorno-no-terminal",
+        "keyword": "Cenario",
+        "name": "Realizar a pesquisa de um cep valido e apresentar o codigo do IBGE no retorno no terminal",
+        "description": "",
+        "line": 5,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "pesquiso um \"cep_valido\"",
+            "line": 6,
+            "match": {
+              "location": "features/step_definitions/step_default.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 554667266
+            }
+          },
+          {
+            "keyword": "Entao ",
+            "name": "valido que o codigo do IBGE e apresentado com sucesso",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/step_default.rb:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 159574
+            }
+          }
+        ]
+      },
+      {
+        "id": "desejo-realizar-a-pesquisa-de-um-cep-valido-e-um-invalido-para-o-teste-da-vr.;realizar-a-pesquisa-de-um-cep-invalido-e-validar-a-mensagem-de-retorno-no-terminal",
+        "keyword": "Cenario",
+        "name": "Realizar a pesquisa de um cep invalido e validar a mensagem de retorno no terminal",
+        "description": "",
+        "line": 9,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "pesquiso um \"cep_invalido\"",
+            "line": 10,
+            "match": {
+              "location": "features/step_definitions/step_default.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 532322152
+            }
+          },
+          {
+            "keyword": "Entao ",
+            "name": "valido que o retorno e apresentado um erro de cep invalido",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/step_default.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 147058
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
